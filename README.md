@@ -3,6 +3,7 @@ Visual Studio extension to easily view the AutoIt help file on context menu for 
 
 ## Precondition
 Please make sure that you also have the AutoIt software package installed before using this extension.
+
 You can download it here: [AutoIt](https://www.autoitscript.com/site/autoit/downloads) 
 
 ## Features
