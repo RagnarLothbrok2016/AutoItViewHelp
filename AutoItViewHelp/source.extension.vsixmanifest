@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="AutoItViewHelp.Christian Lang.1bee20c6-622b-44be-a102-fc6e91f2320a" Version="1.0" Language="en-US" Publisher="Christian Lang" />
+    <Identity Id="1bee20c6-622b-44be-a102-fc6e91f2320a" Version="1.0.0.0" Language="en-US" Publisher="Christian Lang" />
     <DisplayName>AutoItViewHelp</DisplayName>
     <Description>Visual Studio extension to easily view the AutoIt help file on context menu for ".au3" file types.</Description>
-    <License>LICENSE</License>
-    <Tags>Syntax, Help file extension, Script, AutoIt, Language, Context menu extension</Tags>
+    <License>Resources\LICENSE.txt</License>
+    <Icon>Resources\Icon.png</Icon>
+    <PreviewImage>Resources\Preview.png</PreviewImage>
+    <Tags>Syntax, Help file extension, AutoIt Help file extension, Script, AutoIt, Language, Context menu extension</Tags>
   </Metadata>
   <Installation>
     <InstallationTarget Version="[12.0,15.0)" Id="Microsoft.VisualStudio.Community" />
