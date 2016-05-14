@@ -1,6 +1,6 @@
 # Contributing
 
-Contribute? sounds good :) 
+Contributing ? sounds good, isn't it ?  :) 
 **You can find the information below how you can help with the project.**
 
 Please take a moment to review this document in order to make the contribution
