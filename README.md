@@ -1,4 +1,9 @@
 # AutoItViewHelp
+
+<!-- VS Gallery link requires an update after you've uploaded a new VSIX file-->
+###Download now also available on the Microsoft [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/ab30dfbb-5a2d-4552-9d78-618df17f023f).
+
+
 Visual Studio extension to easily view the AutoIt help file on context menu for ".au3" file types.
 
 ## Precondition
