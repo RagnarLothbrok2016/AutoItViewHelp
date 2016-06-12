@@ -15,6 +15,10 @@ You can download it here: [AutoIt](https://www.autoitscript.com/site/autoit/down
 Open ".au3" files in Visual Studio and use **with this** extension the **context menu** to get the help file displayed.
 ![ContextMenu](Images/ContextMenu.png)
 
+For a precise search you can now select an item or double left click on it until it gets completely selected and then use context menu:
+AutoIt - View Help to start your search.
+![ContextMenuItemSelectionSearch](Images/ContextMenuItemSelectionSearch.png)
+
 
 ## Contribution
 Check out the [contribution guidelines](Contributing.md)
