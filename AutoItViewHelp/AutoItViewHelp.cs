@@ -187,15 +187,26 @@ namespace AutoItViewHelp
                     autoItKey.Close();
                 }
             }
+
+            DTE dte = (DTE)ServiceProvider.GetService(typeof(DTE));
+            TextDocument document = (TextDocument)(dte.ActiveDocument.Object("TextDocument"));
+            string manualSelectedEditorText = document.Selection.Text.ToString();
+            manualSelectedEditorText = System.Text.RegularExpressions.Regex.Replace(manualSelectedEditorText, @"\r\n?|\n", "");
+
+            if (string.IsNullOrEmpty(manualSelectedEditorText) || string.IsNullOrWhiteSpace(manualSelectedEditorText))
+            {
+                manualSelectedEditorText = "AutoIt";
+            }
+
             try
             {
-                System.Diagnostics.Process.Start(autoItInstallDir);
+                System.Windows.Forms.Help.ShowHelp(new System.Windows.Forms.Control(), autoItInstallDir, System.Windows.Forms.HelpNavigator.KeywordIndex, manualSelectedEditorText);
             }
             catch
             {
                 VsShellUtilities.ShowMessageBox(
                     this.ServiceProvider,
-                    "Detecting your AutoIt.chm help file failed!.",
+                    "Launching your AutoIt.chm help file failed!.",
                     "Error.",
                     OLEMSGICON.OLEMSGICON_INFO,
                     OLEMSGBUTTON.OLEMSGBUTTON_OK,
